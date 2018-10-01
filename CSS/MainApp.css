@@ -1,0 +1,275 @@
+body{
+    background-image: url("../NBALogos/GreyWhiteWallpaprer.jpg");
+   background-repeat:no-repeat;
+    background-size:cover;
+       
+}
+
+#TeamsIcons{
+    font-family: arial,sans-serif;
+
+     border: 2px solid #507a72;
+    border-collapse: collapse;
+    background-color:   hsla(0, 3%, 76%, 0.24);
+    background-image: url("../NBALogos/WhiteGreyTableBackground.png");
+    
+   
+    margin: auto;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-left: -7px;
+    font-size: 22px;
+    width: 18%;
+    height: 95%;
+
+
+
+}
+tr,td {
+    
+    padding: 10px;
+    text-align: center;
+    border: 1.5px solid #507a72;
+    word-wrap: break-word;
+    border-collapse: collapse;
+    font-size: 7px;
+    overflow: hidden;
+}
+.aLogoTeam{
+    cursor:pointer;
+    display:block;
+      text-decoration: none;
+      font-size: 5px;
+      color: #3e55c1ed;
+      display: inline-block;
+      font-size: 10px;
+    padding: 30px;
+    margin: -30px;
+   
+
+}
+
+.aLogoTeam:hover {background:white;}
+@media screen and (max-width:750px) {
+   
+        
+        
+         body {
+/*background: url("../NBALogos/GreyWhiteWallpaprer.jpg");*/
+/*   background-repeat:no-repeat;*/
+/*    background-size:4500%;*/
+         background:	#e3e3e3;
+}
+}
+/*}*/
+   /* background-image: url("../NBALogos/GreyWhiteWallpaprer.jpg");*/
+   /*background-repeat:no-repeat;*/
+   /* position: absolute;*/
+   
+   /* height:100%;*/
+   /* width: 160vw;*/
+/*         background: rgb(222,222,227);*/
+/*background: linear-gradient(180deg, rgba(222,222,227,1) 17%, rgba(255,255,255,1) 38%, rgba(255,255,255,1) 60%, rgba(222,222,227,1) 86%);*/
+/*   background-repeat: no-repeat; */
+/*    background-position: center;*/
+/*     background-size:cover;*/
+/*    background-attachment: fixed;  */
+/*    background-size:400%;*/
+
+/*
+    
+
+    
+
+
+
+/*@media screen and (min-width:320px) and  (max-width: 767px) {*/
+/*     body{*/
+
+/*  background: rgb(222,222,227);*/
+/*background: linear-gradient(180deg, rgba(222,222,227,1) 17%, rgba(255,255,255,1) 38%, rgba(255,255,255,1) 60%, rgba(222,222,227,1) 86%);*/
+/*   background-repeat: no-repeat; */
+/*    background-position: center;*/
+/*    background-attachment: fixed;  */
+/*    background-size:400%;*/
+/*        background-image: url("../NBALogos/GreyWhiteWallpaprer.jpg");*/
+/*   background-repeat:no-repeat;*/
+/*    position: absolute;*/
+/*    left: 26em;*/
+/*    top: 9em;*/
+/*    height:230vh;*/
+/*    width: 160vw;*/
+    
+/*}*/
+
+/*#TeamsIcons{*/
+/*    font-family: arial,sans-serif;*/
+
+/*     border: 2px solid #507a72;*/
+/*    border-collapse: collapse;*/
+/*    background-color:   hsla(0, 3%, 76%, 0.24);*/
+/*    background-image: url("../NBALogos/WhiteGreyTableBackground.png");*/
+    
+/*    margin: auto;*/
+/*    vertical-align: middle;*/
+/*    margin-top: -6px;*/
+/*    margin-left: -7px;*/
+/*    font-size: 22px;*/
+/*    width: 18%;*/
+/*    height: 95%;*/
+    
+
+
+
+/*}*/
+/*tr,td {*/
+/*    padding: 11.9px;*/
+/*    text-align: center;*/
+/*    border: 2px solid #507a72;*/
+/*    word-wrap: break-word;*/
+/*    border-collapse: collapse;*/
+/*    font-size: 7px;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.aLogoTeam{*/
+/*    cursor:pointer;*/
+/*    display:block;*/
+/*      text-decoration: none;*/
+/*      font-size: 5px;*/
+/*      color: #3e55c1ed;*/
+/*      display: inline-block;*/
+/*      font-size: 10px;*/
+/*    padding: 30px;*/
+/*    margin: -30px;*/
+   
+
+/*}*/
+
+/*.aLogoTeam:hover {background:white;}*/
+
+    
+    
+/*}*/
+
+/*@media (min-width: 1025px) and (max-width: 1280px)  {*/
+   
+
+/*}*/
+/*@media only screen and (min-width: 1281px) {*/
+/*ul*/
+/*{*/
+/*  display:flex;  */
+/*  list-style:none;*/
+/*}*/
+/*body{*/
+/*    background-image: url("../NBALogos/GreyWhiteWallpaprer.jpg");*/
+/*   background-repeat:no-repeat;*/
+/*    background-size:cover;*/
+       
+/*}*/
+
+
+
+
+/*#TeamsIcons{*/
+/*    font-family: arial,sans-serif;*/
+
+/*     border: 2px solid #507a72;*/
+/*    border-collapse: collapse;*/
+/*    background-color:   hsla(0, 3%, 76%, 0.24);*/
+/*    background-image: url("../NBALogos/WhiteGreyTableBackground.png");*/
+    
+/*    margin: auto;*/
+/*    vertical-align: middle;*/
+/*    margin-top: -6.5px;*/
+/*    margin-left: -7px;*/
+/*    font-size: 22px;*/
+/*    width: 20%;*/
+/*    height: 90%;*/
+
+
+
+/*}*/
+/*tr,td {*/
+/*    padding: 29px;*/
+/*    text-align: center;*/
+/*     border: 2px solid #507a72;*/
+/*    word-wrap: break-word;*/
+/*    border-collapse: collapse;*/
+/*    font-size: 7px;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.aLogoTeam{*/
+/*    cursor:pointer;*/
+/*    display:block;*/
+/*      text-decoration: none;*/
+/*      font-size: 5px;*/
+/*      color: #3e55c1ed;*/
+/*      display: inline-block;*/
+/*      font-size: 10px;*/
+/*    padding: 30px;*/
+/*    margin: -30px;*/
+   
+
+/*}*/
+
+/*.aLogoTeam:hover {background:white;}*/
+/*}*/
+/*@media screen and (max-width: 1060px) {*/
+/*    body{*/
+
+/*  background: rgb(222,222,227);*/
+/*background: linear-gradient(180deg, rgba(222,222,227,1) 17%, rgba(255,255,255,1) 38%, rgba(255,255,255,1) 60%, rgba(222,222,227,1) 86%);*/
+/*   background-repeat: no-repeat; */
+/*    background-position: center;*/
+/*    background-attachment: fixed;  */
+/*    background-size:400%;*/
+    
+/*}*/
+
+/*#TeamsIcons{*/
+/*    font-family: arial,sans-serif;*/
+
+/*     border: 2px solid #507a72;*/
+/*    border-collapse: collapse;*/
+/*    background-color:   hsla(0, 3%, 76%, 0.24);*/
+/*    background-image: url("../NBALogos/WhiteGreyTableBackground.png");*/
+    
+/*    margin: auto;*/
+/*    vertical-align: middle;*/
+/*    margin-top: -6px;*/
+/*    margin-left: -7px;*/
+/*    font-size: 22px;*/
+/*    width: 18%;*/
+/*    height: 95%;*/
+
+
+
+/*}*/
+/*tr,td {*/
+/*    padding: 11.9px;*/
+/*    text-align: center;*/
+/*    border: 2px solid #507a72;*/
+/*    word-wrap: break-word;*/
+/*    border-collapse: collapse;*/
+/*    font-size: 7px;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.aLogoTeam{*/
+/*    cursor:pointer;*/
+/*    display:block;*/
+/*      text-decoration: none;*/
+/*      font-size: 5px;*/
+/*      color: #3e55c1ed;*/
+/*      display: inline-block;*/
+/*      font-size: 10px;*/
+/*    padding: 30px;*/
+/*    margin: -30px;*/
+   
+
+/*}*/
+
+/*.aLogoTeam:hover {background:white;}*/
+
+    
+/*}*/

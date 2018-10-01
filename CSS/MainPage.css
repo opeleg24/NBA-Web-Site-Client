@@ -1,0 +1,155 @@
+  
+  #MainNBACourt{
+
+       position: absolute;
+    left: 390px;
+    top: 140px;
+    z-index: -1;
+  height: 400;
+    width: 800;
+ border: 2px solid #c2d6d6;
+
+}
+
+#MainLogoNBAStatsWebSite{
+/*position: relative;*/
+/*    left: 580;*/
+/*    top:-560px;*/
+  position: absolute;
+    left: 570px;
+    top: 20px;
+    z-index: -1;
+    height: 100;
+    width: 400;
+  
+}
+  
+  
+/*  #MainNBACourt{*/
+
+  /*     position: absolute;*/
+  /*  left: 390px;*/
+  /*  top: 140px;*/
+  /*  z-index: -1;*/
+  /*height: 400;*/
+  /*  width: 800;*/
+/*   border: 2px solid #c2d6d6;*/
+/*       position: absolute;*/
+/*    left: 31%;*/
+/*    top: 27%;*/
+/*    height: 60%;*/
+/*    width: 57%;*/
+
+
+/*}*/
+  /*height: 50vw;*/
+  /*padding: 2em;*/
+  /*width: 50vw;*/
+/*#MainLogoNBAStatsWebSite{*/
+/*      position: absolute;*/
+/*    left: 43%;*/
+/*    top: 5%;*/
+/*    height: 17%;*/
+/*    width: 32%;*/
+  /*position: absolute;*/
+  /*      left: 570px;*/
+  /*  top: 20px;*/
+  /*  z-index: -1;*/
+  /*  height: 100;*/
+  /*  width: 400;*/
+
+/*}*/
+
+/*@media  only screen and (min-width: 1025px)  {*/
+    
+/*    #MainNBACourt{*/
+
+/*       position: absolute;*/
+/*    left: 390px;*/
+/*    top: 140px;*/
+/*    z-index: -1;*/
+/*  height: 400;*/
+/*    width: 800;*/
+
+
+/*}*/
+
+/*#MainLogoNBAStatsWebSite{*/
+
+/*  position: absolute;*/
+/*        left: 570px;*/
+/*    top: 20px;*/
+/*    z-index: -1;*/
+/*    height: 100;*/
+/*    width: 400;*/
+
+
+
+/*}*/
+    
+    
+/*}*/
+
+
+
+/*@media only screen and (min-width: 1300px) {*/
+/*#MainNBACourt{*/
+   
+/*    position: absolute;*/
+/*    left: 650;*/
+/*    top: 230;*/
+/*    z-index: -1;*/
+/*    height: 500;*/
+/*    width: 1100;*/
+
+
+/*}*/
+
+/*#MainLogoNBAStatsWebSite{*/
+
+/*position: absolute;*/
+/*    left: 900;*/
+/*    top: 25px;*/
+/*    z-index: -1;*/
+/*    height: 150;*/
+/*    width: 600;*/
+
+
+
+/*}*/
+/*}*/
+
+/*@media screen and (max-width: 720px) {*/
+
+/*#MainNBACourt{*/
+
+/*       position: absolute;*/
+/*    left: 390px;*/
+/*    top: 140px;*/
+/*    z-index: -1;*/
+/*  height: 400;*/
+/*    width: 800;*/
+
+
+/*}*/
+/*verdana,helvetica,arial,sans-serif;*/
+/*#MainLogoNBAStatsWebSite{*/
+/*position: relative;*/
+/*    left: 580;*/
+/*    top:-560px;*/
+/*  position: absolute;*/
+/*    left: 570px;*/
+/*    top: 20px;*/
+/*    z-index: -1;*/
+/*    height: 100;*/
+/*    width: 400;*/
+
+
+
+/*}*/
+
+
+
+
+/*}*/
+

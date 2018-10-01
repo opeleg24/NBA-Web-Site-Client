@@ -1,0 +1,644 @@
+
+  
+  
+  #MainSideLogo{
+    position: absolute;
+    left: 420px;
+    top: 20px;
+    z-index: -1;
+    height:120;
+    width: 120;/*
+    position: relative;
+    left: 420px;
+    top:-565px;*/
+}
+#TeamTitleLogo{
+    position: absolute;
+    left: 580px;
+    top: 32px;
+    z-index: -1;
+    height: 100;
+    width: 400;
+    /*    position: relative;
+         left: 430;
+        top:-575px;*/
+}
+
+#TeamArena{
+    /*    vertical-align: middle;
+        margin-top: 25;
+        margin-left: 685;*/
+    position: absolute;
+    left: 665px;
+    top: 170px;
+    z-index: -1;
+    height: 330;
+    width: 540;
+    border: 2px solid #c2d6d6;
+
+}
+#PlayerNameHeadLine{
+    font-family: arial,sans-serif;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-top: -12;
+    margin-left: 5;
+}
+/*1.Team Data Table*/
+#TeamData{
+        /*vertical-align: middle;*/
+        /*margin-top: -350;*/
+        /*margin-left:315;*/
+        /*height: 100;*/
+        /*width: 400;*/
+    position: absolute;
+    left: 330px;
+    top: 160px;
+    /*z-index:  99;*/
+    font-family: arial,sans-serif;
+   
+}
+
+#TeamDatatr,#TeamDatatd {
+    text-align: left;
+    padding: 20px;
+    font-size: 14px;
+    word-wrap: break-word;
+    max-width: 320px;
+
+}
+#tdStrongTeamDataHeadLines{
+
+    color: hsla(0, 0%, 0%, 0.98);
+}
+
+/*/2.New Team Roster Table*/
+#NewRosterTable{
+    border-collapse: collapse;
+    position: absolute;
+    left: 380px;
+    top: 165px;
+
+    font-family: arial,sans-serif;
+
+
+}
+
+#NewRosterth,#NewRostertd {
+    text-align: left;
+  padding: 7.5px;
+    font-size: 12px;
+}
+
+#NewRostertr:nth-child(odd){background-color: white}
+#NewRostertr:nth-child(even){background-color: #f2f2f2}
+#NewRosterth {
+    background-color: hsla(158, 68%, 44%, 0.98);
+    color: white;
+}
+/*/3.Player Season Stats Table*/
+
+#PlayerSeasonStatsTable{
+   border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: verdana,arial,sans-serif;
+    
+
+}
+
+#PlayerSeasonStatsTableth,#PlayerSeasonStatsTabletd {
+    text-align: left;
+    padding: 7.3px;
+    font-size: 11.5px;
+
+
+}
+#PlayerSeasonStatsTabletr{
+    padding: 12px;
+}
+#PlayerSeasonStatsTabletr:nth-child(odd){background-color: white}
+#PlayerSeasonStatsTabletr:nth-child(even){background-color: #f2f2f2}
+
+#PlayerSeasonStatsTableth {
+    background-color: hsla(158, 68%, 44%, 0.98);
+    color: white;
+}
+/*Player name and style in new team roster*/
+ul.player {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.player {
+    color:blue;
+    text-decoration: none;
+}
+/*/4.Team Pay Roll Table*/
+#PayRollTable{
+    border-collapse: collapse;
+    position: absolute;
+    left: 380px;
+    top: 165px;
+    z-index:  99;
+    font-family: arial,sans-serif;
+
+}
+
+#PayRollth,#PayRolltd {
+    text-align: left;
+    padding: 7.5px;
+    font-size: 12px;
+
+}
+
+#PayRolltr:nth-child(odd){background-color: white}
+#PayRolltr:nth-child(even){background-color: #f2f2f2}
+
+#PayRollth {
+    background-color: hsla(158, 68%, 44%, 0.98);
+    color: white;
+}
+/*Player Modal*/
+.closeBtn {
+
+}
+
+#CloseButtonCreateCoupon {
+    color: black;
+    float: right;
+    margin-top: -36px;
+    margin-right: -27px;
+    font-size: 35px;
+}
+
+#modalBtn {
+    /*	color: #ffffff;
+            background-color: #28d;*/
+}
+/*Modal inside (white area)*/
+#modal-content {
+    background-color: #fefefe;
+    position: relative;
+    margin: 1.8% auto;
+    padding: 27px;
+    border: 1px solid #ffffff;
+    width: 81%;
+    height: 100%;
+    font-size: 14px;
+    /*Relative to table size,important!*/
+    display: table; 
+    overflow-y: auto;    
+    overflow-x: auto;
+
+    max-height:100%;
+}
+/*Modal out side (grey area)*/
+#simpleModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+}
+
+/*Main Navigation(Data,Roster,Salaries)*/
+#primary_nav_wrap
+{
+    /*    vertical-align: middle;
+        margin-top: -592;
+        margin-left: 600;*/
+    /*position: absolute;*/
+    /*left: 640px;*/
+    /*top: 125px;*/
+      position: absolute;
+    left: 640px;
+    top: 126px;
+     
+    /*    z-index:  99;*/
+}
+
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+.aTeam
+{
+    display:block;
+    color:#333;
+    text-decoration:none;
+    font-weight:550;
+    font-size:12px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:#ddd;
+}
+
+#primary_nav_wrap ul li:hover
+{
+    background:#f6f6f6;
+
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
+/*arrows up and down for table sorting*/
+/*This class displays the UP arrow*/
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+    display:inline-block;
+}
+
+/*This class displays the DOWN arrow*/
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+    display:inline-block;
+}
+/*#not to delete it makes the franchise roster salaries in one line.!!!!{*/
+
+/*}*/
+  @media screen and (max-width: 750px)  {
+      
+      #primary_nav_wrap 
+{
+
+      position: relative;
+    left: 640px;
+    top: -433px;
+
+}
+  }
+/*#TeamTitleLogo{*/
+/*         position: absolute;*/
+/*    left: 700;*/
+/*    top: 45;*/
+/*    z-index: -1;*/
+/*    height: 150px;*/
+/*    width: 440;*/
+/*}*/
+/* #MainSideLogo{*/
+/* position: absolute;*/
+/*    left: 480px;*/
+/*    top: 45;*/
+/*    z-index: -1;*/
+/*    height: 150;*/
+/*    width: 150;*/
+
+/*}*/
+/*Main Navigation(Data,Roster,Salaries)*/
+/*#primary_nav_wrap*/
+/*{*/
+   
+/*    position: absolute;*/
+/*      left: 770;*/
+/*    top: 180px;*/
+     
+    /*    z-index:  99;*/
+/*}*/
+/*.aTeam*/
+/*{*/
+/*    display:block;*/
+/*    color:#333;*/
+/*    text-decoration:none;*/
+/*    font-weight:550;*/
+/*    font-size:13px;*/
+/*    line-height:32px;*/
+/*    padding:0 16px;*/
+/*    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif*/
+/*}*/
+
+/*#TeamArena{*/
+
+/*        position: absolute;*/
+/*    left: 790px;*/
+/*    top: 240px;*/
+/*    z-index: -1;*/
+/*    height: 360;*/
+/*    width: 580;*/
+/*    border: 2px solid #c2d6d6;*/
+
+/*}*/
+/*#PlayerNameHeadLine{*/
+/*    font-family: arial,sans-serif;*/
+/*    font-size: 25px;*/
+/*    vertical-align: middle;*/
+/*    margin-top: -12;*/
+/*    margin-left: 5;*/
+/*}*/
+/*1.Team Data Table*/
+/*#TeamData{*/
+
+/*    position: absolute;*/
+/*    left: 370px;*/
+/*    top: 240px;*/
+    /*z-index:  99;*/
+/*    font-family: arial,sans-serif;*/
+   
+/*}*/
+
+/*#TeamDatatr,#TeamDatatd {*/
+/*    text-align: left;*/
+/*    padding: 22px;*/
+/*    font-size: 16px;*/
+/*    word-wrap: break-word;*/
+/*    max-width: 320px;*/
+
+/*}*/
+/*#tdStrongTeamDataHeadLines{*/
+
+/*    color: hsla(0, 0%, 0%, 0.98);*/
+/*}*/
+
+/*/2.New Team Roster Table*/
+/*#NewRosterTable{*/
+/*    border-collapse: collapse;*/
+/*    position: absolute;*/
+/*    left: 420px;*/
+/*    top: 230px;*/
+
+/*    font-family: arial,sans-serif;*/
+
+
+/*}*/
+
+/*#NewRosterth,#NewRostertd {*/
+/*    text-align: left;*/
+/*    padding: 11px;*/
+/*    font-size: 13px;*/
+/*}*/
+
+/*#NewRostertr:nth-child(odd){background-color: white}*/
+/*#NewRostertr:nth-child(even){background-color: #f2f2f2}*/
+/*#NewRosterth {*/
+/*    background-color: hsla(158, 68%, 44%, 0.98);*/
+/*    color: white;*/
+/*}*/
+/*/3.Player Season Stats Table*/
+
+/*#PlayerSeasonStatsTable{*/
+/*    border-collapse: collapse;*/
+  
+/*   position: absolute;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 0);*/
+/*    font-family: verdana,arial,sans-serif;*/
+
+
+/*}*/
+
+/*#PlayerSeasonStatsTableth,#PlayerSeasonStatsTabletd {*/
+/*    text-align: left;*/
+/*    padding: 9px;*/
+/*    font-size: 13px;*/
+
+
+/*}*/
+/*#PlayerSeasonStatsTabletr{*/
+/*    padding: 13px;*/
+/*}*/
+/*#PlayerSeasonStatsTabletr:nth-child(odd){background-color: white}*/
+/*#PlayerSeasonStatsTabletr:nth-child(even){background-color: #f2f2f2}*/
+
+/*#PlayerSeasonStatsTableth {*/
+/*    background-color: hsla(158, 68%, 44%, 0.98);*/
+/*    color: white;*/
+/*}*/
+/*Player name and style in new team roster*/
+/*ul.player {*/
+/*    list-style-type: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+/*.player {*/
+/*    color:blue;*/
+/*    text-decoration: none;*/
+/*}*/
+/*/4.Team Pay Roll Table*/
+/*#PayRollTable{*/
+/*    border-collapse: collapse;*/
+/*    position: absolute;*/
+/*     left: 420px;*/
+/*    top: 230px;*/
+/*    z-index:  99;*/
+/*    font-family: arial,sans-serif;*/
+
+/*}*/
+
+/*#PayRollth,#PayRolltd {*/
+/*     text-align: left;*/
+/*    padding: 11px;*/
+/*    font-size: 13px;*/
+
+/*}*/
+
+/*#PayRolltr:nth-child(odd){background-color: white}*/
+/*#PayRolltr:nth-child(even){background-color: #f2f2f2}*/
+
+/*#PayRollth {*/
+/*    background-color: hsla(158, 68%, 44%, 0.98);*/
+/*    color: white;*/
+/*}*/
+/*Player Modal*/
+/*.closeBtn {*/
+
+/*}*/
+
+/*#CloseButtonCreateCoupon {*/
+/*    color: black;*/
+/*    float: right;*/
+/*    margin-top: -36px;*/
+/*    margin-right: -27px;*/
+/*    font-size: 35px;*/
+/*}*/
+
+/*#modalBtn {*/
+    /*	color: #ffffff;
+            background-color: #28d;*/
+/*}*/
+/*Modal inside (white area)*/
+/*#modal-content {*/
+/*    background-color: #fefefe;*/
+/*    position: relative;*/
+/*    margin: 1.8% auto;*/
+/*    padding: 27px;*/
+/*    border: 1px solid #ffffff;*/
+/*    width: 77%;*/
+/*    height: 85%;*/
+/*    font-size: 14px;*/
+    /*Relative to table size,important!*/
+/*    display: table; */
+/*    overflow-y: auto;    */
+/*    overflow-x: auto;*/
+
+/*    max-height:100%;*/
+/*}*/
+/*Modal out side (grey area)*/
+/*#simpleModal {*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*    z-index: 1;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    overflow: auto;*/
+/*    background-color: rgba(0, 0, 0, 0.5);*/
+/*    top: 0;*/
+/*}*/
+
+
+
+/*#primary_nav_wrap ul*/
+/*{*/
+/*    list-style:none;*/
+/*    position:relative;*/
+/*    float:left;*/
+/*    margin:0;*/
+/*    padding:0*/
+/*}*/
+
+
+
+/*#primary_nav_wrap ul li*/
+/*{*/
+/*    position:relative;*/
+/*    float:left;*/
+/*    margin:0;*/
+/*    padding:0*/
+/*}*/
+
+/*#primary_nav_wrap ul li.current-menu-item*/
+/*{*/
+/*    background:#ddd;*/
+/*}*/
+
+/*#primary_nav_wrap ul li:hover*/
+/*{*/
+/*    background:#f6f6f6;*/
+
+/*}*/
+
+/*#primary_nav_wrap ul ul*/
+/*{*/
+/*    display:none;*/
+/*    position:absolute;*/
+/*    top:100%;*/
+/*    left:0;*/
+/*    background:#fff;*/
+/*    padding:0*/
+/*}*/
+
+/*#primary_nav_wrap ul ul li*/
+/*{*/
+/*    float:none;*/
+/*    width:200px*/
+/*}*/
+
+/*#primary_nav_wrap ul ul a*/
+/*{*/
+/*    line-height:120%;*/
+/*    padding:10px 15px*/
+/*}*/
+
+
+
+/*#primary_nav_wrap ul ul ul*/
+/*{*/
+/*    top:0;*/
+/*    left:100%*/
+/*}*/
+
+/*#primary_nav_wrap ul li:hover > ul*/
+/*{*/
+/*    display:block*/
+/*}*/
+/*arrows up and down for table sorting*/
+/*This class displays the UP arrow*/
+/*.arrow-up {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-left: 5px solid transparent;*/
+/*    border-right: 5px solid transparent;*/
+/*    border-bottom: 10px solid black;*/
+/*    display:inline-block;*/
+/*}*/
+
+/*This class displays the DOWN arrow*/
+/*.arrow-down {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-left: 5px solid transparent;*/
+/*    border-right: 5px solid transparent;*/
+/*    border-top: 10px solid black;*/
+/*    display:inline-block;*/
+/*}*/
+/*@media screen and (max-width: 720px) {*/
+ 
+/*}*/
+
