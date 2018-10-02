@@ -4,13 +4,13 @@ NBA Web Site - http://nbawebsite.opeleg90.com/public_html/#!/#%2F!
 
 This web site shows NBA teams information including :
 
-•	Teams Franchise Index.
+•	Teams Franchise Index
 
-•	Current Team Roster.
+•	Current Team Roster
 
-•	Current Team Payroll.
+•	Current Team Payroll
 
-•	Players Individual Stats.  
+•	Players Individual Stats  
 
 # Built With
 Web client languages used in the project : 
