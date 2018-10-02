@@ -2,7 +2,7 @@
 NBA Website - http://nbawebsite.opeleg90.com/public_html/#!/#%2F!
 
 
-This NBA website shows NBA teams information including :
+This NBA website shows NBA teams information including:
 
 •	Team Franchise Index
 
@@ -13,7 +13,7 @@ This NBA website shows NBA teams information including :
 •	Players Individual Stats  
 
 # Built With
-Web client languages used in the project : 
+Web client languages used in the project: 
 
 • HTML5
 
