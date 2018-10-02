@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="true">
 
-<title>NBA WebSite</title>
+<title>NBA Website</title>
 <link rel="icon" type="image/png" href="../NBALogos/OrangeBallIcon.png" sizes="16x16">
 <script src="angular.min.js"></script>
 <script src="angular-route.js"></script>
