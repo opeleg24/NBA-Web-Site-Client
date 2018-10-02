@@ -13,7 +13,7 @@ This web site shows NBA teams information including :
 •	Players Individual Stats.  
 
 # Built With
-Web cient languages used in the project : 
+Web client languages used in the project : 
 
 • HTML5
 
