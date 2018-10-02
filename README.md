@@ -1,8 +1,8 @@
-# NBA Web Site
-NBA Web Site - http://nbawebsite.opeleg90.com/public_html/#!/#%2F!
+# NBA Website
+NBA Website - http://nbawebsite.opeleg90.com/public_html/#!/#%2F!
 
 
-This web site shows NBA teams information including :
+This website shows NBA teams information including :
 
 •	Teams Franchise Index
 
@@ -26,7 +26,7 @@ Web client languages used in the project :
 
 # Acknowledgements
 
-The NBA Web Site uses the following open source software:
+This project uses the following open source software:
 
 
 • [Angular.js](https://angularjs.org/) - Client side JavaScript MVC framework to develop a dynamic web application
