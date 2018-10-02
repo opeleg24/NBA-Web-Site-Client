@@ -24,5 +24,12 @@ Web client languages used in the project :
 • Angular.js
 
 
+# Acknowledgements
+
+The NBA Web Site uses the following open source software:
+
+
+• [Angular.js](https://angularjs.org/) - Client side JavaScript MVC framework to develop a dynamic web application
+
 
 
