@@ -16,6 +16,6 @@ The project was written in php.
 
 The NBA teams and players data was scrapped by an external library (simple_html_dom) and stored in a MySQL database. 
 
-The web client platform was build with HTML5, CSS3, JavaScript and Angular.js.
+The web client platform was built with HTML5, CSS3, JavaScript and Angular.js.
 
 
